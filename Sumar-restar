@@ -1,0 +1,19 @@
+def sumar(a, b):
+    return a + b
+
+def restar(a, b):
+    return a - b
+
+def main():
+    print("Programa para sumar y restar dos números.")
+    a = float(input("Introduce el primer número: "))
+    b = float(input("Introduce el segundo número: "))
+    
+    suma = sumar(a, b)
+    resta = restar(a, b)
+    
+    print(f"La suma de {a} y {b} es: {suma}")
+    print(f"La resta de {a} menos {b} es: {resta}")
+
+if __name__ == "__main__":
+    main()
